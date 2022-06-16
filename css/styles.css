@@ -203,7 +203,7 @@ a {
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
-    background-color: var(--team-background-color);
+    background-color: var(--second-accent-color);
     color: var(--primary-text-color);
     cursor: pointer;
 }
