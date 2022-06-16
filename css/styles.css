@@ -1,9 +1,3 @@
-body {
-    background-color: #E5E5E5;
-    font-family: ;
-
-}
-
 /* цвет основного текста #212121 */
 /* цвет вторичного текста #757575 */
 /* основной акцент макета #2196F3 */
@@ -14,10 +8,23 @@ body {
     --primary-text-color: #212121;
     --title-text-color: #757575;
     --accent-color: #2196F3;
+    --second-accent-color: #F5F4FA;
+    --white-text-color: #ffffff;
+
+}
+
+body {
+    background-color: #E5E5E5;
+    color: var(--primary-text-color) font-family:;
+
 }
 
 ul {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* header nav */
@@ -61,3 +68,35 @@ ul {
 .item .text-item {
     color: var(--title-text-color);
 }
+
+/* чем мы занимаемся */
+.sphere .section-title {
+    color: var(--primary-text-color);
+}
+
+.sphere > .section-title {
+    color: var(--primary-text-color);
+
+}
+
+/* наша команда */
+.team .section-title {
+    color: var(--primary-text-color);
+}
+
+.section-list-item .title-item {
+    color: var(--primary-text-color);
+}
+
+.section-list-item .text-item {
+    color: var(--title-text-color);
+}
+
+
+
+/* навигация */
+.button-nav {
+    cursor: pointer;
+}
+
+
