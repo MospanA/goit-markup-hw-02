@@ -1,0 +1,63 @@
+body {
+    background-color: #E5E5E5;
+    font-family: ;
+
+}
+
+/* цвет основного текста #212121 */
+/* цвет вторичного текста #757575 */
+/* основной акцент макета #2196F3 */
+/* вторичный цвет акцента #F5F4FA */
+/* вторичный цвет фона #F5F4FA */
+
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+ul {
+    list-style: none;
+}
+
+/* header nav */
+
+.menu-list-link {
+    color: var(--primary-text-color);
+    
+}
+.menu-list-link:hover,
+.menu-list-link:focus {
+    color: var(--accent-color);
+}
+
+.menu-contacts {
+    color: var(--title-text-color);
+}
+
+.menu-contacts-item .mail:hover,
+.menu-contacts .mail:focus {
+    color: var(--accent-color);
+    
+}
+
+.menu-contacts-item .phone:hover,
+.menu-contacts .phone:focus {
+    color: var(--accent-color);
+    
+}
+
+/* hero */
+
+/* преймущества компании */
+.advantages .section-title {
+    color: var(--primary-text-color);
+}
+
+.item .title-item {
+    color: var(--primary-text-color);
+}
+
+.item .text-item {
+    color: var(--title-text-color);
+}
