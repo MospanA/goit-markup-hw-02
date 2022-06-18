@@ -75,7 +75,7 @@ a {
     color: var(--accent-color);
 }
 
-.menu-list-link:active {
+.menu-list .active:visited {
     color: var(--accent-color);
 }
 
