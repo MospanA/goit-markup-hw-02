@@ -64,6 +64,9 @@ a {
     color: var(--title-text-color);
 }
 
+.active {
+    color: var(--accent-color);
+}
 
 .menu-list-link {
     color: var(--primary-text-color);
@@ -93,10 +96,6 @@ a {
 .menu-contacts .phone:focus {
     color: var(--accent-color);
     
-}
-
-.menu-contact-link:active {
-    color: var(--accent-color);
 }
 
 /* подвал сайта */
